@@ -1,3 +1,3 @@
 # *Learning-Angular-and-Typescript*
 
-## **ÂQue es Typescript?¿**
+## **Â¿Que es Typescript?**
