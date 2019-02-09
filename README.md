@@ -1,4 +1,4 @@
-# *Learning-Angular-and-Typescript*
+# **Learning-Angular-and-Typescript**
 
 ## **¿Que es angular?**
 
@@ -11,4 +11,14 @@ Usando SPA el código generado por las herramientas o las tecnologias básicas p
 La página no tendra que cargar otra vez ningún punto del proceso tampoco se transfiere a otra página (AJAX)
 
 >*Una aplicación web SPA creada con Angular es una web de una sola página, en la cual la navegación entre secciones y páginas de la aplicación, así como la carga de datos, se realiza de manera dinámica, casi instantánea, asincronamente haciendo llamadas al servidor (backend con un API REST) y sobre todo sin refrescar la página en ningún momento.*
+
 ## **¿Que es Typescript?**
+
+.
+
+```python
+    # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
+
+    # Autor : Thom Maurick Roman Aguilar
+    # Estudiante de la carrera Ingenieria de Sistemas
+```
