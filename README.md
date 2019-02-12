@@ -55,6 +55,9 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
 - Permite configurar opciones para el compilador
 - Especifica los archivos principaless
 
+- Generación :
+    - `tsc --init`
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 
