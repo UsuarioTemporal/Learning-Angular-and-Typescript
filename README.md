@@ -44,6 +44,10 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
     $ node dist/main.js
 ```
 
+```sh
+    $ tsc test.ts
+```
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 

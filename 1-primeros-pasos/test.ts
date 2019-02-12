@@ -1,0 +1,1 @@
+console.log('Paresco javascript pero soy typescript xd')
