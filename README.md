@@ -14,7 +14,7 @@ La página no tendra que cargar otra vez ningún punto del proceso tampoco se tr
 
 ## **¿Que es Typescript?**
 
-.
+> *TypeScript es un tipo de superset de javascript que compila a javascript plano*
 
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
