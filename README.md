@@ -53,7 +53,7 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
 - Es un archivo JSON
 - Su presencia indica que el directorio es la raíz de un proyecto TypeScript
 - Permite configurar opciones para el compilador
-- Especifica los archivivos principaless
+- Especifica los archivos principaless
 
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
