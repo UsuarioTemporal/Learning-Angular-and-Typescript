@@ -70,6 +70,10 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
         "include":[
             "src/*.ts" // para leer de manera recursiva src/**/*.ts
         ]
+        ,
+        "exclude":[
+            "src/node_modelos" // archivos que no quermos tomar en cuenta en nuestro proyecto
+        ]
     }
 ```
 
