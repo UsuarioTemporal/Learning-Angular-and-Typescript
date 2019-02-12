@@ -26,7 +26,16 @@ Sass es a CSS como TypeScript es a Javascript, podemos usar las ultimas caracter
     $ tsc --watch
 ```
 
-La opción `--watch` del compilador de typescript, permite observar y recompilar nuestros archivos con cada cambio.El resultado de la compulacion para cada archivo `.ts` se autogenera en el directorio `dist/`
+La opción `--watch` del compilador de typescript, permite observar y recompilar nuestros archivos con cada cambio.El resultado de la compilación para cada archivo `.ts` se autogenera en el directorio `dist/`
+
+# **Ejecutar el código**
+
+Para poder compilar typescript necesitamos del motor Node.js(pequeño spam xd , tengo un repositorio de mi aprendizaje de Node.js )
+
+```sh
+    $ node dist/main/type.js
+    $ node dist/main.js
+```
 
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
