@@ -16,6 +16,11 @@ La página no tendra que cargar otra vez ningún punto del proceso tampoco se tr
 
 > *TypeScript es un tipo de superset de javascript que compila a javascript plano*
 
+Typescript es un lenguaje de programacion tipada, usemos esta analogia :
+
+sass es a CSS como TypeScript es a Javascript, podemos usar las ultimas caracteristiocas de javascript.
+
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 
