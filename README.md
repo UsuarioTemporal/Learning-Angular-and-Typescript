@@ -20,6 +20,13 @@ Typescript es un lenguaje de programacion tipada, usemos esta analogia :
 
 Sass es a CSS como TypeScript es a Javascript, podemos usar las ultimas caracteristiocas de javascript.
 
+### **Instalación**
+
+```sh
+    $ npm install -g typescript
+    $ tsc --version
+```
+
 ## **Compilación automática**
 
 ```sh
@@ -30,7 +37,7 @@ La opción `--watch` del compilador de typescript, permite observar y recompilar
 
 # **Ejecutar el código**
 
-Para poder compilar typescript necesitamos del motor Node.js(pequeño spam xd , tengo un repositorio de mi aprendizaje de Node.js )
+Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd , tengo un repositorio de mi aprendizaje de Node.js )
 
 ```sh
     $ node dist/main/type.js
