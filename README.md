@@ -64,7 +64,7 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
     {
         "compilerOptions":{...},
         "files":[
-            "src/a.ts", // con esto le decimos que solo compilara estos archivos en la carpeta del outDir
+            "src/a.ts", /* con esto le decimos que solo compilara estos archivos en la carpeta del outDir*/
             "src/b.ts"
         ]
     }
