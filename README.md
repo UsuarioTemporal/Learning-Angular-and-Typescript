@@ -18,8 +18,15 @@ La página no tendra que cargar otra vez ningún punto del proceso tampoco se tr
 
 Typescript es un lenguaje de programacion tipada, usemos esta analogia :
 
-sass es a CSS como TypeScript es a Javascript, podemos usar las ultimas caracteristiocas de javascript.
+Sass es a CSS como TypeScript es a Javascript, podemos usar las ultimas caracteristiocas de javascript.
 
+## **Compilación automática**
+
+```sh
+    $ tsc --watch
+```
+
+La opción `--watch` del compilador de typescript, permite observar y recompilar nuestros archivos con cada cambio.El resultado de la compulacion para cada archivo `.ts` se autogenera en el directorio `dist/`
 
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
