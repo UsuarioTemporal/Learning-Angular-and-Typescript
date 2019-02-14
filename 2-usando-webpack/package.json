@@ -11,5 +11,8 @@
     "webpack"
   ],
   "author": "Thom Maurick",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.3.3"
+  }
 }
