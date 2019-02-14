@@ -13,6 +13,7 @@
   "author": "Thom Maurick",
   "license": "MIT",
   "dependencies": {
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3"
   }
 }
