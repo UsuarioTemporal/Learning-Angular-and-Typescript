@@ -1,0 +1,15 @@
+{
+  "name": "2-usando-webpack",
+  "version": "1.0.0",
+  "description": "Typescript desde cero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "webpack"
+  ],
+  "author": "Thom Maurick",
+  "license": "MIT"
+}
