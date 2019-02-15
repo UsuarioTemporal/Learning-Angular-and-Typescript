@@ -78,6 +78,8 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
     }
 ```
 
+**Comando yarn :**
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 
