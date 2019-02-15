@@ -43,3 +43,26 @@ cualquiera=false
 cualquiera=undefined
 cualquiera=null
 
+const saludar=(nombre?:string):string=>{
+    if(!nombre) nombre = 'Thom'
+    return `Hello ${nombre}`
+}
+console.log(saludar('Carlos'))
+console.log(saludar())
+
+const sumatoria = (number_a:number,number_b:number):number=>{
+    return number_a + number_b
+}
+const sumatoria_2 = (arr:number[]):number=>{
+    return arr.reduce((a,b)=>a+b)
+}
+console.log(sumatoria_2([1,2,3]));
+
+let apellidos:Array<string>
+apellidos=['asdasd','asdasdad']
+
+/**
+ * tupla
+ */
+let pedido :[string,number,boolean]
+pedido = ['pizza',14,true]
