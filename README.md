@@ -84,6 +84,11 @@ Para poder compilar typescript necesitamos del motor Node.js (pequeño spam xd ,
 
 ## **Type vs interface**
 
+> Los alias `type` pueden actuar como una interfaces similares, sin embargo , hay algunas diferencias sutiles
+
+El `Type` o alias permite la creación de un nuevo nombre para un tipo, este no crea realmente un nuevo tipo sino que crea un nuevo nombre para referirse a ese tipo
+
+Una interfaz , por ejm, se puede utilizar justo con las palabras clave ampliadas e implementarlas, mientras que un alias de tipo para un objeto no puede, ademas dois interfaces con el mismo nombre se unen.
 
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
