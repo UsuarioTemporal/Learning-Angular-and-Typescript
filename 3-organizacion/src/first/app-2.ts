@@ -15,4 +15,7 @@ type Curso = 'Typescript' | 'Angular'
 let cursoComprado_2 : Curso;
 const funcionComprarCurso = (curso:Curso)=>{
 }
-type FuncionComprar = (curso:Curso)=>void;
+type FuncionCompra = (curso:Curso)=>void;
+
+const comprarCursoDesc: FuncionCompra=(curso) =>{
+}
