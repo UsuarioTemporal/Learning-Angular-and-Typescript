@@ -66,3 +66,8 @@ apellidos=['asdasd','asdasdad']
  */
 let pedido :[string,number,boolean]
 pedido = ['pizza',14,true]
+
+const sumatoria_3 = (...arr:number[]):number=>{
+    return arr.reduce((a,b)=>a+b)
+}
+console.log(sumatoria_3(1,2));
