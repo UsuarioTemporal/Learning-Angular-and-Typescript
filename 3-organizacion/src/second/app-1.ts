@@ -7,3 +7,4 @@ day = DaysOfTheWeek.FRI
 if(day===DaysOfTheWeek.FRI){
     console.log('si')
 }
+console.log(day);

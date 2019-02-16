@@ -90,6 +90,8 @@ El `Type` o alias permite la creación de un nuevo nombre para un tipo, este no 
 
 Una interfaz , por ejm, se puede utilizar justo con las palabras clave ampliadas e implementarlas, mientras que un alias de tipo para un objeto no puede, ademas dois interfaces con el mismo nombre se unen.
 
+Los enumerados nos permiten definir un conjunto de constantes nombradas.El uso de enumeraciones puede hacer que sea mas facil documentar la intencion o crear un conjunto de casos distintos.
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 
