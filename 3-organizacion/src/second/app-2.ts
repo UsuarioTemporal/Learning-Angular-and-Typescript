@@ -1,6 +1,6 @@
 interface ICurso{
     nombre:string
-    identificador:number
+    identificador?:number
 }
 
 let miniCurso : ICurso;
@@ -18,4 +18,19 @@ let miniCursos: ICursos = {
             identificador:1
         }
     ]
+}
+const crearCurso = (curso:ICurso):ICurso=>{
+    return {
+        nombre:curso.nombre,
+        identificador:curso.identificador
+    }as ICurso
+}
+
+const nuevoCurso = crearCurso({
+    nombre:'Javascript',
+    identificador:1
+})
+
+interface CursoEDtema extends ICurso{
+    costo:number
 }
