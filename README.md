@@ -92,11 +92,16 @@ Una interfaz , por ejm, se puede utilizar justo con las palabras clave ampliadas
 
 Los enumerados nos permiten definir un conjunto de constantes nombradas.El uso de enumeraciones puede hacer que sea mas facil documentar la intencion o crear un conjunto de casos distintos.
 
+![ng serve](./img/ng_serve.png)
+
+
 [Referencias](https://josepablosarco.wordpress.com/2015/04/23/testeo-de-apis-api-testing/)
 
 [Referencias](https://update.angular.io/)
 
 [Referencias](https://cli.angular.io/)
+
+[Referencias](https://developers.deezer.com/login?redirect=/api)
 
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
