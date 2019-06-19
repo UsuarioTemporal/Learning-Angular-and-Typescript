@@ -94,6 +94,8 @@ Los enumerados nos permiten definir un conjunto de constantes nombradas.El uso d
 
 [Referencias](https://josepablosarco.wordpress.com/2015/04/23/testeo-de-apis-api-testing/)
 
+[Referencias](https://update.angular.io/)
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 
