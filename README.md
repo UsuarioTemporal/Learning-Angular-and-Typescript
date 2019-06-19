@@ -92,6 +92,8 @@ Una interfaz , por ejm, se puede utilizar justo con las palabras clave ampliadas
 
 Los enumerados nos permiten definir un conjunto de constantes nombradas.El uso de enumeraciones puede hacer que sea mas facil documentar la intencion o crear un conjunto de casos distintos.
 
+[Referencias](https://josepablosarco.wordpress.com/2015/04/23/testeo-de-apis-api-testing/)
+
 ```python
     # Las citas mas frecuentes fueron usadas desde https://victorroblesweb.es y wikipedia
 
