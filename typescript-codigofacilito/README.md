@@ -18,3 +18,5 @@ para poder utilizar esta fución tenemos que configurar nuestro proyecto para
 poder utilizar typescript entonces aquí viene una de las desventajas , entonces
 no es recomendable utilizar en proyectos pequeños ya que el tiempo de configuracion
 será mayor que el mismo proyecto en sí.
+
+[decoradores typescrip](http://www.diegoboscan.com/decoradores-en-typescript/)
