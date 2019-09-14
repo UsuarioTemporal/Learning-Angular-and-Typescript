@@ -6,14 +6,20 @@ import { Component } from '@angular/core'; // este es el elemento principal para
 //     template:`
 //         <h1>CF</h1>
 //     `
+/*
+* template : y auqi se coloca todo el componente pero
+tambien se usa
 
+templateUrl:'title-component.html
+*/
 // })
 @Component({
     selector:'myTitle',
-    template:`
-        <h1>CF</h1>
-    `
+    // template:`
+    //     <h1>CF</h1>
+    // `
+    templateUrl : 'title.component.html'
 })
 export class TitleComponent{
-
+    name:string='Thom'
 }
