@@ -1,0 +1,18 @@
+<p>header works!</p>
+<p>{{ name }}</p>
+<p>{{ arr }}</p>
+<!-- <p>{{ myObj }}</p> --> <!-- Esto se resolvera con pipes -->
+<p>{{myObj.age}}</p>
+<button (click)=generateRandomNumber()>Click me !! </button>
+
+<ul>
+    <li *ngFor="let item of arr">
+        {{item}}
+    </li>
+</ul>
+
+<ul>
+    <li *ngFor="let item of myObj | keyvalue">
+        {{item.key}} : {{item.value}}
+    </li>
+</ul>

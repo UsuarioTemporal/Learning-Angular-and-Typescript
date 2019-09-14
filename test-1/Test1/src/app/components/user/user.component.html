@@ -1,0 +1,27 @@
+<ng-container *ngIf="!isLogged; else elseTemplate">
+    <button (click)="changeState()">Iniciar sesión</button>
+</ng-container>
+<ng-template #elseTemplate>
+    <button (click)="changeState()">Cerrar Sesión</button>
+</ng-template>
+
+<!-- Otra forma -->
+<button *ngIf="!isLogged" (click)="changeState()">Iniciar sesión</button>
+<button *ngIf="isLogged" (click)="changeState()">Cerrar Sesión</button>
+
+<!--
+     <ng-container></ng-container>
+            esto solo sirve para agrupar contenido esto no representa nada
+            en el html
+    <ng-template #name></ng-template>
+    
+    las interfaces son definiciones de objetos es decir dado un objeto con datos podemos definir 
+    que estructura ya a tener
+    
+    user =<User> {
+
+    }
+
+-->
+
+<button [disabled]="isNotActive" (click)="isNotActive = !isNotActive">asdad</button>
