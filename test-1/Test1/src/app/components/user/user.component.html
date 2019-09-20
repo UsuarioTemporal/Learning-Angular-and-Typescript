@@ -25,3 +25,13 @@
 -->
 
 <button [disabled]="isNotActive" (click)="isNotActive = !isNotActive">asdad</button>
+
+<ng-template [ngIf]="isLogged" [ngIfElse]="loggedOut">
+    <div class="">
+        Welcome !
+    </div>
+</ng-template>
+<ng-template #loggedOut>
+    <div class="">login?</div>
+</ng-template>
+
