@@ -35,3 +35,26 @@
     <div class="">login?</div>
 </ng-template>
 
+
+<!-- <ng-container
+  *ngIf="isLogged; then loggedIn; else loggedOut">
+</ng-container>
+
+<ng-template #loggedIn>
+  <div>
+    Welcome back, friend.
+  </div>
+</ng-template>
+<ng-template #loggedOut>
+  <div>
+    Please friend, login.
+  </div>
+</ng-template> -->
+
+
+<input type="text" [ngModel]="name">
+
+<input type="text" [(ngModel)]="lastName">
+
+<p>{{ name }}</p>
+<p>{{ lastName }}</p>

@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class UserComponent implements OnInit {
   private isNotActive = false
   private isLogged:boolean = false
+  private name:string = 'Thom'
+  private lastName = 'Roman'
   constructor() { }
   ngOnInit() {
   }
