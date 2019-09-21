@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import {UserService} from '../../services/user.service'
 
 @Component({
   selector: "app-user",
@@ -14,8 +15,10 @@ export class UserComponent implements OnInit {
   private items:string[] = ['Toyota','Hyandai','Mercedes']
   private seleccion:string = this.items[0]
   private seleccion_2:string = this.items[0]
-  constructor() {}
-  ngOnInit() {}
+  constructor(private userService:UserService) {}
+  async ngOnInit() {
+    console.log(await this.userService.getUser())
+  }
   private changeState() {
     this.isLogged = !this.isLogged;
   }
