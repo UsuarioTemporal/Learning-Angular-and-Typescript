@@ -36,20 +36,20 @@
 </ng-template>
 
 
-<!-- <ng-container
-  *ngIf="isLogged; then loggedIn; else loggedOut">
+<ng-container
+  *ngIf="isLogged; then IsLogged; else LoggedOut">
 </ng-container>
 
-<ng-template #loggedIn>
+<ng-template #IsLogged>
   <div>
     Welcome back, friend.
   </div>
 </ng-template>
-<ng-template #loggedOut>
+<ng-template #LoggedOut>
   <div>
     Please friend, login.
   </div>
-</ng-template> -->
+</ng-template>
 
 
 <input type="text" [ngModel]="name">
