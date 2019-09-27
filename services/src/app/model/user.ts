@@ -9,8 +9,8 @@ export interface UserBase {
 }
 interface Name{
     title:string,
-        first:string,
-        last:string
+    first:string,
+    last:string
 }
 interface Picture{
     arge:string,

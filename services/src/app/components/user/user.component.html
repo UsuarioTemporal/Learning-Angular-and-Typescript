@@ -1,1 +1,14 @@
 <button (click)="generateUser()">Generate User</button>
+<div *ngIf="userService.user">
+    <div class="" *ngIf="userModel">
+        <div class="name">
+            Name : {{ userModel.name.first}} {{userModel.name.last}}
+        </div>
+        <div class="email">
+            Email : {{userModel.email}}
+        </div>
+        <div class="image">
+            <img [src]="userModel.picture.medium" alt="">
+        </div>
+    </div>
+</div>
