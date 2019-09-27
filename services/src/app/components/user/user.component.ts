@@ -12,11 +12,11 @@ export class UserComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.generateUser()
   }
   private generateUser(){
-    // this.apiService.requestGetUserRandom().subscribe(response=>{
-    //   this.userService.user.results = response.results
-    // })
+    this.apiService.requestGetUserRandom().subscribe(response=>{
+      this.userService.user.results = response.results
+      console.log(this.userService)
+    })
   }
 }
