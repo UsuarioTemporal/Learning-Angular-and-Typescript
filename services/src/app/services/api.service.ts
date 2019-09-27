@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/internal/Observable';
   providedIn: 'root'
 })
 export class ApiService {
-  api_url:string="https://randomuser.me/api/1.2/?inc=gender,name,email,picture&noinfo"
+  private api_url:string="https://randomuser.me/api/1.2/?inc=gender,name,email,picture&noinfo"
   constructor(
     private _http:HttpClient
   ) { }
