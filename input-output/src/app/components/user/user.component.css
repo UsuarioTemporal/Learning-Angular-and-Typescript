@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5em;
+}
+.left,.right{
+    flex: 1;
+}
+button{
+    border: 1px solid paleturquoise;
+    background-color: paleturquoise;
+    color: white;
+    padding: .5em 2em;
+}

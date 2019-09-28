@@ -6,6 +6,7 @@ import {HttpClient} from '@angular/common/http'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+  private cadenaXSS = `sdfsd <img src="/hacked">`
   constructor(private _http:HttpClient){
 
   }
