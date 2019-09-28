@@ -12,5 +12,7 @@ export class MyCourseComponent implements OnInit {
   ngOnInit() {
     
   }
-
+  isImageVisible(){
+    return this.course && this.course.iconUrl
+  }
 }

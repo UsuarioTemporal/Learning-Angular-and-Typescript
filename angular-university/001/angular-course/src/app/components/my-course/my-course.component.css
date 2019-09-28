@@ -1,0 +1,28 @@
+
+.course-card{
+    margin-top: 2em;
+    padding: 1.3em 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    position: relative;
+}
+.img{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.course-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+button{
+    background-color: #dc3545;
+    
+    color: white;
+    border: none;
+    margin-top: 1.3em;
+    padding: .4em 1.3em;
+    font-size: .9em;
+    border-radius: 5px;
+    cursor: pointer;
+}
