@@ -15,12 +15,17 @@ export class AppComponent implements OnInit {
   ngOnInit() {
   }
   onCourseSelected(course:Course){
-    // console.log(course)
+    console.log(course)
   }
   addCourse(course:Course){
     this.myCourses.push(course)
   }
   verifyMyCourses(){
     return this.myCourses  && this.myCourses.length 
+  }
+  listEmptyObject(){
+    return {
+      'margin':'auto'
+    }
   }
 }

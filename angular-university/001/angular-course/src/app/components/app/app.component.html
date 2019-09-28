@@ -11,7 +11,9 @@
             ></app-my-course>
         </ng-container>
         <ng-template #listEmpty>
-            <p>List Empty</p>
+            <!-- <p [style.margin]="'auto'">List Empty</p> -->
+            <!-- <p [ngStyle]="{'margin': 'auto'}">List Empty</p> -->
+            <p [ngStyle]="listEmptyObject()"> List Empty</p>
         </ng-template>
         
     </div>
