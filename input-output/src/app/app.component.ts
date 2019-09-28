@@ -13,13 +13,11 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
     this._http.get('https://jsonplaceholder.typicode.com/users').subscribe(reponse=>{
       this.users = reponse as any
-      console.log(this.users)
     })
   }
   title = 'input-output';
   users = []
-  deleleUser_(id:number){
-    this.users = this.users.filter(user=>user.id!=id)
-    console.log(id)
-  }
+  // deleleUser_(id:number){
+  //   this.users = this.users.filter(user=>user.id!=id)
+  // }
 }
