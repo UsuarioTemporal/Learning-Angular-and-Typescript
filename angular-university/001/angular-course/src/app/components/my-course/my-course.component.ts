@@ -1,5 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, Host } from '@angular/core';
 import { Course } from 'src/app/model/course';
+import { AppComponent } from '../app/app.component';
 
 @Component({
   selector: 'app-my-course',
@@ -7,12 +8,18 @@ import { Course } from 'src/app/model/course';
   styleUrls: ['./my-course.component.css']
 })
 export class MyCourseComponent implements OnInit {
-  constructor() { }
+  constructor(
+    @Host() private _app:AppComponent
+  ) { }
   @Input('myCourse')course:Course
   ngOnInit() {
     
   }
   isImageVisible(){
     return this.course && this.course.iconUrl
+  }
+  deleteCourse(course:Course){
+    this._app.myCourses = this._app.myCourses.filter(c=>c.id!==course.id)
+    this._app.courses.push(course)
   }
 }
