@@ -7,8 +7,8 @@
     flex: 1;
 }
 button{
-    border: 1px solid paleturquoise;
-    background-color: paleturquoise;
+    border: none;
+    background-color: sandybrown;
     color: white;
     padding: .5em 2em;
 }

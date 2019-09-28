@@ -18,5 +18,8 @@ export class AppComponent implements OnInit{
   }
   title = 'input-output';
   users = []
-  
+  deleleUser_(id:number){
+    this.users = this.users.filter(user=>user.id!=id)
+    console.log(id)
+  }
 }
