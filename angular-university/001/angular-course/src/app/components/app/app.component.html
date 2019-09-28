@@ -3,9 +3,5 @@
 </div>
 
 <div class="courses">
-    <app-course-card></app-course-card>
-    <app-course-card></app-course-card>
-    <app-course-card></app-course-card>
-    <app-course-card></app-course-card>
-    <app-course-card></app-course-card>
+    <app-course-card *ngFor="let course of courses" [data]="course"></app-course-card>
 </div>
