@@ -12,6 +12,7 @@ export class CourseCardComponent implements OnInit {
   ngOnInit() {
   }
   @Input('data') course:Course
+  @Input('cardIndex') index:number
   @Output() showCourse = new EventEmitter<Course>() 
   onCourseViewed(course:Course){
     this.showCourse.emit(course)

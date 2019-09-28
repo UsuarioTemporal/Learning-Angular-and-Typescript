@@ -9,7 +9,7 @@ import {Course} from '../../model/course'
 export class AppComponent implements OnInit {
   private courses:Course[] = COURSES
   constructor() { }
-  
+
   ngOnInit() {
   }
   onCourseSelected(course:Course){
