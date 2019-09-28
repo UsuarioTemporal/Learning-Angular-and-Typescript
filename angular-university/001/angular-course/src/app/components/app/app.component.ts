@@ -15,4 +15,5 @@ export class AppComponent implements OnInit {
   onCourseSelected(course:Course){
     console.log(course)
   }
+  
 }

@@ -17,4 +17,10 @@ export class CourseCardComponent implements OnInit {
   onCourseViewed(course:Course){
     this.showCourse.emit(course)
   }
+  isImageVisible(){
+    return this.course || this.course.iconUrl
+  }
+  addCourse(course:Course){
+    console.log(course)
+  }
 }

@@ -1,6 +1,3 @@
-.course-card.beginner{
-    background: lightsalmon;
-}
 
 .course-card{
     padding: 1.3em 2em;
@@ -20,7 +17,8 @@
 }
 
 button{
-    background: #1976d2;
+    background-color: #28a745;
+    
     color: white;
     border: none;
     margin-top: 1.3em;
@@ -28,4 +26,8 @@ button{
     font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
+}
+button:last-of-type{
+    margin-left: 1em;
+    background: #1976d2;
 }

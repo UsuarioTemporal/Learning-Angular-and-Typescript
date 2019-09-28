@@ -2,12 +2,14 @@
     <img class="logo" src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png" alt="">
 </div>
 
-<div class="courses">
-    <app-course-card *ngFor="let course of courses;index as i;first as isFirst;last as isLast"
-        [class.is-first]="isFirst"
-        [class.is-last]="isLast"
-        [data]="course"
-        [cardIndex]="i+1"
-        (showCourse)="onCourseSelected($event)">
-    </app-course-card>
+<div class="main-container">
+    <div class="list-my-courses">
+        <app-list-courses></app-list-courses>
+    </div>
+    <div class="courses">
+            <app-course-card *ngFor="let course of courses;index as i;first as isFirst;last as isLast"
+                [class.is-first]="isFirst" [class.is-last]="isLast" [data]="course" [cardIndex]="i+1"
+                (showCourse)="onCourseSelected($event)">
+            </app-course-card>
+    </div>
 </div>
