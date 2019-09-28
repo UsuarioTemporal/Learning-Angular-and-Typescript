@@ -7,13 +7,20 @@ import {Course} from '../../model/course'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  private courses:Course[] = COURSES
+  courses:Course[] = COURSES
+  myCourses:Course[] = []
+
   constructor() { }
 
   ngOnInit() {
   }
   onCourseSelected(course:Course){
-    console.log(course)
+    // console.log(course)
   }
-  
+  addCourse(course:Course){
+    this.myCourses.push(course)
+  }
+  verifyMyCourses(){
+    return this.myCourses  && this.myCourses.length 
+  }
 }

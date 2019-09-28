@@ -4,12 +4,23 @@
 
 <div class="main-container">
     <div class="list-my-courses">
-        <app-list-courses></app-list-courses>
+        <ng-container *ngIf="verifyMyCourses(); else listEmpty">
+            <app-my-course
+                *ngFor="let myCourse of myCourses"
+                [myCourse]="myCourse"
+            ></app-my-course>
+        </ng-container>
+        <ng-template #listEmpty>
+            <p>List Empty</p>
+        </ng-template>
+        
     </div>
     <div class="courses">
             <app-course-card *ngFor="let course of courses;index as i;first as isFirst;last as isLast"
                 [class.is-first]="isFirst" [class.is-last]="isLast" [data]="course" [cardIndex]="i+1"
-                (showCourse)="onCourseSelected($event)">
+                (showCourse)="onCourseSelected($event)"
+                (eventAddCourse)="addCourse($event)"
+                >
             </app-course-card>
     </div>
 </div>
