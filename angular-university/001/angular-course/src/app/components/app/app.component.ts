@@ -9,6 +9,7 @@ import {Course} from '../../model/course'
 export class AppComponent implements OnInit {
   courses:Course[] = COURSES
   myCourses:Course[] = []
+  // startDate = new Date(2000,0,1)
 
   constructor() { }
 

@@ -11,7 +11,8 @@ export class CourseCardComponent implements OnInit {
   constructor(
     @Host() private _app:AppComponent
   ) { }
-
+  startDate = new Date()
+  price = 9.99
   ngOnInit() {
   }
   @Input('data') course:Course

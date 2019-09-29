@@ -1,16 +1,19 @@
 <div class="course-card" *ngIf="course">
     <div class="course-title">
-        {{index}} .- {{course?.description}}
+        {{index}} .- {{course?.description | titlecase}}
     </div>
-    <img width="300" class="img" alt="Angular Logo"
-        *ngIf="isImageVisible();else noImage"
-        [src]="course.iconUrl">
+    <img width="300" class="img" alt="Angular Logo" *ngIf="isImageVisible();else noImage" [src]="course.iconUrl">
     <ng-template #noImage>
         <p>No image is available</p>
     </ng-template>
-    
+
     <div class="course-description">
         {{course?.longDescription}}
+    </div>
+    <div [ngStyle]="{'margin': '1em','font-weight':'bold'}">
+        Start Course : {{ startDate | date:'dd/MM/yyyy'}}
+        <br>
+        Price : {{price | number:'2.2-5' | currency}} <!-- '2.2-5' 2 significa que es el numero minimo de la parte entera y el otro es como minimo 2 y maximo 5 de la parte decimal -->
     </div>
     <button (click)="addCourse(course)">Add Course</button>
     <button (click)="onCourseViewed(course)">View Course</button>
