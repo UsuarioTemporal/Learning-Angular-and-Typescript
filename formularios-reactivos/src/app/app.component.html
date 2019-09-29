@@ -1,12 +1,25 @@
 <h1>Formularios</h1>
-<form [formGroup]="signupForm" >
+<form [formGroup]="signupForm" (ngSubmit)="sendInfo(signupForm.value)">
   <input formControlName="name" type="text" placeholder="Nombre">
+  <br>
   <br>
   <input formControlName="user" type="text" placeholder="Usuario">
   <br>
+  <div *ngIf="signupForm.get('user').hasError('required') && signupForm.get('user').touched">
+    El usuario es necesario
+  </div>
+  <br>
   <input formControlName="email"type="text" placeholder="Email">
   <br>
+  <div *ngIf="signupForm.get('email').hasError('email') && signupForm.get('email').touched">
+    El email es necesario
+  </div>
+  <br>
   <input formControlName="password" type="password" placeholder="Contraseña">
+  <br>
+  <div *ngIf="signupForm.get('password').hasError('required') && signupForm.get('password').touched">
+    El password es necesario
+  </div>
   <br>
   <button type="submit" [disabled]="signupForm.invalid">Registrarse</button>
 </form>

@@ -14,8 +14,11 @@ export class AppComponent {
     this.signupForm = this._builder.group({
       name:['',Validators.required],
       user:['',Validators.required],
-      email:['',Validators.compose([Validators.email,Validators.required])],
-      password:['',Validators.required]
+      email:['',Validators.compose([Validators.required,Validators.email,Validators.pattern('^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$')])],
+      password:['',Validators.compose([Validators.required,Validators.minLength(6)])]
     })
+  }
+  sendInfo(values){
+    console.log(values)
   }
 }
