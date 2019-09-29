@@ -1,0 +1,12 @@
+<h1>Formularios</h1>
+<form [formGroup]="signupForm" >
+  <input formControlName="name" type="text" placeholder="Nombre">
+  <br>
+  <input formControlName="user" type="text" placeholder="Usuario">
+  <br>
+  <input formControlName="email"type="text" placeholder="Email">
+  <br>
+  <input formControlName="password" type="password" placeholder="Contraseña">
+  <br>
+  <button type="submit" [disabled]="signupForm.invalid">Registrarse</button>
+</form>
