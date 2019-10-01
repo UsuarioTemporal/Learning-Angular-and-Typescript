@@ -10,7 +10,9 @@ export class CoursesService {
   
   constructor(private _http:HttpClient) { }
 
-  getCourses():Observable<Course[]>{
-    return this._http.get<Course[]>('http://localhost:4000/api/courses/')
+  getCourses({params=null}):Observable<Course[]>{
+    if(!params)
+      return this._http.get<Course[]>('http://localhost:4000/api/courses/')
+    return this._http.get<Course[]>('http://localhost:4000/api/courses/',{params})
   }
 }
