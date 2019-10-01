@@ -1,19 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 import {COURSES,findCourseById} from '../../../db-data'
 import {Course} from '../../model/course'
+import {CoursesService} from '../../services/courses.service'
+
 @Component({
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  courses:Course[] = COURSES
+  // courses:Course[] = COURSES
+  courses:Course[] = []
   myCourses:Course[] = []
   // startDate = new Date(2000,0,1)
-
-  constructor() { }
+//
+  constructor(private apiServiceCourse:CoursesService) { }
 
   ngOnInit() {
+    this.apiServiceCourse.getCourses().subscribe(response=>{
+      this.courses = response
+    })
   }
   onCourseSelected(course:Course){
     console.log(course)

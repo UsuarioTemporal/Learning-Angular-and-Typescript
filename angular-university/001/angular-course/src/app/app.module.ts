@@ -16,7 +16,8 @@ import { MyCourseComponent } from './components/my-course/my-course.component'
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
